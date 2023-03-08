@@ -1,0 +1,96 @@
+
+    [
+      {
+        "id":1,
+        "title": "Gestã de Projetos com Finanças",
+        "type": "Urgente",
+        "qtyLances": "3 lances",
+        "avgLance": "Lance médio de US$ 65",
+        "meses": "3 meses atrás",
+        "price": "$ 50 - $ 100",
+        "priceDescription": "Preço por hora",
+        "attributes": [
+          "Contabilidade",
+          "Consultado",
+          "excel",
+          "Jurídico",
+          "Redação Jurídica"
+        ]
+      },
+      {
+        "title": "Aplicativo de compartilhamento de fotos e mensagens",
+        "type": "Urgente",
+        "qtyLances": "2 lances",
+        "avgLance": "Lance médio de US$ 12.944",
+        "meses": "há 4 meses",
+        "price": "$ 50.000 - $ 100.000",
+        "priceDescription": "Preço fixo",
+        "attributes": [
+          "Android",
+          "IOS",
+          "Mobile",
+          "Design",
+          "UX",
+          "UI"
+        ]
+      },
+      {
+        "title": "Arquitetura e Designer de Interiores",
+        "type": "Destaque",
+        "qtyLances": "1 lances",
+        "avgLance": "Lance médio de US$ 12",
+        "meses": "há 4 meses",
+        "price": "$ 50.000 - $ 30.000",
+        "priceDescription": "Preço fixo",
+        "attributes": [
+          "Android",
+          "IOS",
+          "Mobile",
+          "Design",
+          "UX",
+          "UI"
+        ]
+      },
+      {
+        "title": "Projeto de teste",
+         "type": "Destaque",
+        "qtyLances": "0 licitações",
+        "avgLance": "Lance médio de US$ 12",
+        "meses": "6 dias atras",
+        "price": "$ 1.234 - $ 5.555",
+        "priceDescription": "Preço fixo",
+        "attributes": [
+          "AJAX"
+          
+        ]
+      },
+      {
+        "title": "fdfdf",
+        "qtyLances": "0 licitações",
+        "avgLance": "Lance médio de US$ 12",
+        "meses": "10 dias atras",
+        "price": "$ 1.234 - $ 5.555",
+        "priceDescription": "Preço fixo",
+        "attributes": [
+          "AJAX",
+          "IOS"
+          
+        ]
+      },
+      {
+        "title": "teste",
+        "qtyLances": "1 licitações",
+        "avgLance": "Lance médio de US$ 500",
+        "meses": "2 meses atras",
+        "price": "$ 1.234 - $ 5.555",
+        "priceDescription": "Preço fixo",
+        "attributes": [
+          "AAX",
+          "IOS"
+          
+        ]
+      }
+      
+    ]
+  
+  

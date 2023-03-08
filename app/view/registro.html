@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://localhost/web/css/registro.css">
+    <link rel="stylesheet" href="http://localhost/web/css/navbar.css">
+    <link rel="stylesheet" href="http://localhost/web/css/footer.css">
+    <link rel="stylesheet" href="http://localhost/web/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/> -->
+   </head>
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-inicio "></div>
+        <div class="navbar bord">
+              <div class="dropdown1">
+                    <button class="dropbtn1">Inicio
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content1">
+                    <a href="index.html">Home</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    </div>
+              </div> 
+              <div class="dropdown2 ">
+                <button class="dropbtn2">Encontrar Trabalho 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content2">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div> 
+            <div class="dropdown ">
+              <button class="dropbtn">Empregadores
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div> 
+          </div>
+          <div class="sublogin ">
+            <i class="fa-solid fa-right-to-bracket"></i>
+        <a id="Entrar" href="login2.html">Entrar</a>
+        <a href="#" id="registrar">Registro</a>
+          </div>
+    </nav>
+</header>
+<main>
+  <h1>Registro</h1>
+</main>
+<div class="cadastro">
+  <div class="main_div">
+    <div class="title">Vamos criar a sua conta</div>
+    <div class="subti"> Ja tem uma conta? <a href="login2.html">Entrar</a></div>
+    <div class="social_icons green">
+      <a href="#"><i class="fas fa-user"></i> <span>Freelancer</span></a>
+      <a href="#"><i class="fas fa-user"></i></i><span>Empregador</span></a>
+    </div>
+    <form action="http://localhost/web/login/inserir" method="post">
+      <div class="input_box">
+        <input type="text" placeholder="Nome Completo" required name="username">
+        <div class="icon"><i class="fas fa-user"></i></div>
+      </div>
+      <div class="input_box">
+        <input type="text" placeholder="Nome do usuario" required name="user">
+        <div class="icon"><i class="fas fa-user"></i></div>
+      </div>
+      <div class="input_box">
+        <input type="text" placeholder="Endereço de Email" required name="email">
+        <div class="icon"><i class="fas fa-user"></i></div>
+      </div>
+      <div class="input_box">
+        <input type="password" placeholder="Senha" required name="pwd">
+        <div class="icon"><i class="fas fa-lock"></i></div>
+      </div>
+      <div class="option_div">
+        <div class="check_box">
+          <input type="checkbox" name="check">
+          <span>Ao clicar no botão Registrar, voçe concorda com nossos Termos e condiçoes</span>
+        </div>
+        
+      </div>
+      <div class="input_box button">
+        <input type="submit" value="Registrar">
+      </div>
+      {% if error != '' %}
+          <div class="pass">  <span >erro ao logar!!<br> Tente Novamente!!! </span></div>
+          {% endif %}
+    </form>
+  </div>
+</div>
+<div class="ir_top">
+  <button class="btnTop" onclick="scrollToTop()" ><i class="fa-solid fa-caret-up"></i></button>
+
+</div>
+<footer>
+  <div class="container-footer">
+      <div class="row-footer">
+          <!-- footer col-->
+          <div class="footer-col">
+              <h4>Minha Conta</h4>
+              <ul>
+                  <li><a href="#"> Conecte-se</a></li>
+                  <li><a href=""> Registro </a></li>
+                  <li><a href=""> Publique um trabalho </a></li>
+              </ul>
+          </div>
+          <!--end footer col-->
+      
+         
+      </div>
+      
+  </div>
+  <div class="direitos">
+      <div class="reservado">
+          <h4>2022 Todos os direitos Reservados</h4>
+      </div>
+      <div class="redes-sociais">
+          <a href="#"> <i class="fa fa-facebook"></i> </a>
+          <a href="#"> <i class="fa fa-instagram"></i> </a>
+          <a href="#"> <i class="fa fa-twitter"></i> </a>
+          <a href="#"> <i class="fa fa-linkedin"></i> </a>
+          <a href="#"> <i class="fa fa-pinterest-p"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+  </div>
+</footer>
+<script src="http://localhost/web/js/script_js.js"></script>
+</body>
+</html>

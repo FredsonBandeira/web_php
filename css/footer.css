@@ -1,0 +1,133 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+} */
+footer{
+    background-color: #5c5858;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin-bottom: 4em;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap; 
+    padding-left: 15em;
+
+}
+
+.footer-col{
+    width:  572%;;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 5px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    padding-bottom: 1em;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+ .medias-socias{
+    margin-top: 30px;
+}
+ .redes-sociais a{
+    /* display: inline-flex; */
+    /* align-items: center; */
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    /* border-radius: 50%; */
+    color: white;
+    /* border: 1px solid white; */
+    transition: all 0.5s ease;
+}
+.redes-socias a i{
+    font-size: 20px;
+}
+
+.redes-socias a:hover{
+    color: #415aca;
+    background-color: white;
+}
+
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
+.direitos{
+    display: flex;
+    grid-template-columns: auto auto 1%;
+    color: aliceblue;
+    opacity: 0.7;
+    border-top-style: inset;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+.reservado{
+    border-right-style: inset;
+}
+.redes-sociais{
+    
+    margin-left: 1em;
+}
+.redes-sociais i{
+    margin-left: 0.5em;
+}
+/*  buttom top */
+
+.ir_top button {
+    position: fixed; /* Posição fixa na tela */
+    right: 20px; /* Distância da margem direita */
+    bottom: 20px; /* Distância da margem inferior */
+    background-color: transparent; /* Sem cor de fundo */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+    outline: none; /* Sem destaque ao clicar */
+    font-size: 32px;
+    width: 20px; /**/
+    }
+    
+  .ir_top button i {
+    color: #4CAF50; /* Cor da seta */
+    transition: all 0.2s ease-in-out; /* Animação suave ao passar o mouse */
+}
+
+.ir_top button:hover i {
+    color: #3e8e41; /* Cor da seta ao passar o mouse */
+    transform: translateY(-5px); /* Movimentação da seta para cima ao passar o mouse */
+}

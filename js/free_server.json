@@ -1,0 +1,36 @@
+[
+    {
+      "id":1,
+      "title1": "Techno Suave",
+      "type2": "Sites,TI e Software / .NET",
+      "taxa": "$12",
+      "Lance": "31",
+      "recont": "28"
+      
+    },
+    {
+        "id":2,
+        "title1": "Dream Tech",
+        "type2": "Sites,TI e Software/Desemvolvimento de Jogos",
+        "taxa": "$10",
+        "Lance": "2",
+        "recont": "0"
+    },
+    {
+        "id":3,
+        "title1": "Poderoso",
+        "type2": "Sites,TI e Software / .NET",
+        "taxa": "$12",
+        "Lance": "31",
+        "recont": "28"
+    },
+    {
+        "id":4,
+        "title1": "Poderoso",
+        "type2": "Sites,TI e Software / .NET",
+        "taxa": "$12",
+        "Lance": "31",
+        "recont": "28"
+    }
+   
+  ]

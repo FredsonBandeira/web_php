@@ -1,0 +1,742 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins',sans-serif;
+  }
+/* Incio da navbar */
+nav{
+    display: grid;
+    grid-template-columns: 10em auto 25%;
+    height: 70px;
+    border-color: #999;
+    border-bottom-width: 2px;
+    border-top-width:0;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-style: solid;
+  }
+  nav.ativo{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: fixed;
+    width: 100%;
+   }
+   nav.ativo .dropbtn, nav.ativo .dropbtn1, nav.ativo .dropbtn2, nav.ativo a {
+    color: black;
+   }
+  
+  .navbar {
+      overflow: hidden;
+      padding-top: 1em;
+    }
+    
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: rgb(3, 3, 3);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: #f7f3f3;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+    /* nav1 */
+    .dropdown1 {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .dropdown1 .dropbtn1 {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: #f8f0f0;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin-left: 20px;
+    }
+   
+    .dropdown-content1 {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content1 a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content1 a:hover {
+      background-color: #ddd;
+    }
+    
+    .dropdown1:hover .dropdown-content1 {
+      display: block;
+    }
+    /* nabar2 */
+  
+    .dropdown2 {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .dropdown2 .dropbtn2 {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: #fcf8f8;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    
+    
+    .dropdown-content2 {
+      display: none;
+      position: absolute;
+      background-color: #1e1d1d;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content2 a {
+      float: none;
+      color: rgb(255, 254, 254);
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .dropdown-content2 a:hover {
+      background-color: #ddd;
+    }
+    
+    .dropdown2:hover .dropdown-content2 {
+      display: block;
+    }
+    .sublogin{
+      margin-top:26px; 
+      margin-left: 10px;
+      padding-left: 30px;
+    
+    }
+    .bord{
+      border-color: #999;
+    border-bottom-width: 0;
+    border-top-width:0;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-style: solid;
+    }
+    .sublogin a{
+      margin-top: 12px;
+      padding-right: 30px;
+      text-decoration: none;
+      color:  #f9f9f9;
+    }
+/*     fim da navbar */
+/* background header */
+
+.bg_img{
+    background-image: url("../img/bote.jpg");
+    min-height: 380px;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;  
+  }
+
+  /*  hebe */
+  section.hebe {
+    height: 450px;
+    padding-top: 56px;
+    padding-left: 226px;
+}
+
+.hebe h1, .hebe h2 {
+    font-size: 20pt;
+    max-width: 500px;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.hebe h1 {
+    color: white;
+}
+
+.hebe h2 {
+    color: #242424;
+}
+
+button.BtnEncontrarTrabalho {
+    margin-top: 30px;
+    color: rgb(255, 249, 249);
+    font-size: 11pt;
+    width: 180px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.forminputPROCURA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-top: 10px;
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+input.txtinputPROCURA {
+    width: 80%;
+    border: none;
+    margin-left: 28px;
+    font-size: 11pt;
+    height: 100%;
+
+}
+
+input.txtinputPROCURA:focus {
+    outline: none;
+}
+header button{
+    background-color: rgb(65, 145, 114);
+}
+button.BtnProcurar {
+    color: rgb(255, 249, 249);
+    font-size: 12pt;
+    width: 80px;
+    height: 80%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.details-container {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+p.Number-details {
+    color: white;
+    font-size: 16pt;
+}
+
+p.Name-details {
+    color: rgb(161, 160, 160);
+}
+
+span.span-details-project,
+.span-details-Jobs,
+.span-details-freelancers {
+    padding: 0 40px 0 0;
+}
+
+span.span-details-project,
+.span-details-Jobs {
+    border-right: 1px gray solid;
+}
+
+.span-details-Jobs,
+.span-details-freelancers {
+    padding-left: 40px;
+}
+
+/* Categoria produto */
+.fund_produto{
+    background-color: darkgrey; 
+   margin: auto;
+   
+ }
+.fund_produto h2, .funciona h2 {
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+  }
+.fund_produto i{
+    color:#16a085;
+   }
+.fund_produto i:hover{
+    color:#f0f1f1;
+   }
+
+   .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 60px 160px 60px 160px;
+  }
+  .grid-item{
+    display: block;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .grid-item button{
+    background-color: #939796;
+    border: none;
+  }
+  .grid-container > div {
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+ }
+ .grid-container button{
+  padding: 5px;
+  border-radius: 3px;
+ }
+/* como funciona */
+
+  .component-container1 {
+    display: inline-block;
+    text-align: center;
+    
+    margin: 5px;
+    padding: 40px;
+   
+}
+.descricao{
+  font-size: 13px;
+}
+.titulo-componente{
+  font-size: 17px;
+  color: black;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    padding: 60px 160px 60px 160px;
+  }
+  
+  .grid-container2 > div {
+   
+    text-align: center;
+    
+  }
+  .grid-item2 i{
+    width: 10px;
+    height: 10px;
+  }
+
+  /* ultimos trabalhos */
+.ultimosprojetos {
+    background-color: rgb(250, 250, 250);
+    padding: 60px 160px 60px 160px;
+}
+
+.textTitle-P_ultimosprojetos_div {
+    display: flex;
+    align-items: center;
+}
+
+p.title_utlimosprojetos {
+    font-size: 18pt;
+}
+
+p.p_ProcurarProjetos {
+    color: #00d689;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+.Grupscard_ultimosprojetos_flex {
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px rgb(226, 226, 226);
+}
+
+.CardsUltimoProjeto:nth-last-of-type(2n +1) {
+    background-color: #f9f9f9;
+}
+.cardT1_ultimosprojetos_div {
+    display: flex;
+    border-top-left-radius: 2px;
+    padding: 30px 30px 30px 30px;
+    
+
+}
+.cardT1_ultimosprojetos_div:hover{
+  border-left: 3px solid rgb(31, 153, 127);
+}
+.cardT2_ultimosprojetos_div {
+    display: flex;
+    border-top-left-radius: 2px;
+    padding: 30px 30px 30px 30px;
+
+}
+
+.card_ultimosprojetos_title {
+    font-size: 14pt;
+    margin-bottom: 5px;
+}
+
+.card_ultimosprojetos_typeUrgent {
+    background-color: rgb(255, 242, 215);
+    width: 60px;
+    padding: 3px;
+    text-align: center;
+    color: rgb(141, 119, 67);
+    font-size: 11pt;
+}
+
+.card_ultimosprojetos_typeDestaque {
+    background-color: rgb(227, 232, 255);
+    width: 60px;
+    padding: 3px;
+    text-align: center;
+    color: rgb(0, 126, 165);
+    font-size: 11pt;
+}
+
+.card_ultimosprojetos_detalhes {
+    display: flex;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 11pt;
+}
+
+.card_ultimosprojetos_atributos_div {
+    display: flex;
+
+}
+
+.card_ultimosprojetos_atributos {
+    background-color: rgb(226, 253, 237);
+    font-size: 11pt;
+    color: #00d689;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+.card_ultimosprojetos_quantlances,
+.card_ultimosprojetos_lancemedios {
+    margin-right: 20px;
+}
+
+.card_ultimosprojetos_meses,
+.card_ultimosprojetos_quantlances,
+.card_ultimosprojetos_lancemedios {
+    color: #00d689;
+}
+
+.cardT1Left,
+.cardT2Left {
+    width: 85%;
+}
+
+.card_ultimosprojetos_price {
+    font-size: 12pt;
+}
+
+.card_ultimosprojetos_priceDescription {
+    margin-top: 5px;
+    color: rgb(109, 108, 108);
+}
+
+.card_ultimosprojetos_buttonSubmit {
+    font-size: 11pt;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+    color: white;
+    background-color: #00d689;
+}
+/*------------ fim ultimos trabalhos */
+.ir_top button {
+  position: fixed; /* Posição fixa na tela */
+  right: 20px; /* Distância da margem direita */
+  bottom: 20px; /* Distância da margem inferior */
+  background-color: transparent; /* Sem cor de fundo */
+  border: none; /* Sem borda */
+  cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+  outline: none; /* Sem destaque ao clicar */
+  font-size: 32px; /**/
+  }
+  
+.ir_top button i {
+  color: #4CAF50; /* Cor da seta */
+  transition: all 0.2s ease-in-out; /* Animação suave ao passar o mouse */
+}
+
+.ir_top button:hover i {
+  color: #3e8e41; /* Cor da seta ao passar o mouse */
+  transform: translateY(-5px); /* Movimentação da seta para cima ao passar o mouse */
+}
+/*--------------------------------- SECTION ultimostrabalhos ---------------------------------------------*/
+.ultimostrabalhos {
+  background-color: white;
+  padding: 60px 150px 60px 150px;
+}
+
+.Grupscard_ultimostrabalhos_div {
+  margin-top: 30px;
+  box-shadow: 0px 0px 2px 2px rgb(226, 226, 226);
+
+}
+
+.Grupscard_ultimostrabalhos_flex {
+  display: flex;
+  padding: 30px;
+}
+
+/*this, change backgroud color between cards */
+.CardsUltimoProjeto2:nth-last-of-type(2n) {
+  background-color: #f9f9f9;
+}
+
+.card_ultimostrabalhos_detalhes_div {
+
+  margin: 0 20px 20px;
+  width: 75%;
+}
+
+.card_ultimostrabalhos_atributos {
+  display: flex;
+  margin-top: 8px;
+}
+
+p.card_ultimostrabalhos_title {
+  color: #00d689;
+
+}
+.avatar2 {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  
+}
+
+.card_ultimostrabalhos_departamento,
+.card_ultimostrabalhos_locallidade {
+  margin-right: 20px;
+}
+
+.card_ultimostrabalhos_buttonSubmit {
+  position: relative;
+  font-size: 11pt;
+  padding: 10px;
+  height: 37px;
+  border: 1px solid #00d689;
+  background-color: white;
+  color: var(--verde);
+
+}
+
+/*--------------------------------- End ultimostrabalhos------------------------------------------------*/
+/********************************** SECTION  Freelancers avaliable ***************************************/
+.FreelancersAvaliable {
+  background-color: rgb(250, 250, 250);
+  padding: 60px 105px 60px 105px;
+}
+
+.main_scroll_div {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.scrolldiv {
+  overflow-x: scroll;
+  padding: 0 10px 10px 10px;
+}
+
+.scrolldiv::-webkit-scrollbar {
+  display: none;
+}
+
+.buttonScroll_left {
+  position: relative;
+  left: 30px;
+}
+
+.buttonScroll_right {
+  position: relative;
+  right: 25px;
+}
+
+.Grupscard_freelancersavaliable {
+  display: inline-flex;
+
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+
+.card_freelanceravaliable {
+  text-align: center;
+  box-shadow: 0px 0px 2px 2px rgb(226, 226, 226);
+  width: 312px;
+  padding: 10px 0 35px 0;
+  margin: 25px 25px 0 0;
+}
+
+
+
+.Grupscard_freelancersavaliable_title {
+  margin-top: 10px;
+  font-size: 14pt;
+}
+
+
+
+.Grupscard_freelancersavaliable_subtitle {
+  color: rgb(109, 108, 108);
+  line-height: 30px;
+  margin-bottom: 10px;
+  margin: 15px 20px 0 20px;
+}
+
+.card_freelancer_details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+
+}
+
+.card_freelancer_details * {
+  text-align: left;
+  font-size: 11pt;
+  color: rgb(109, 108, 108);
+}
+
+.card_freelancer_details__number {
+  font-weight: bolder;
+  font-size: 12pt;
+  color: black;
+}
+
+
+
+.card_freelancer_button {
+  border: none;
+  background-color: #00d689;
+  color: white;
+  border-radius: 4px;
+  font-size: 11pt;
+  padding: 10px 90px 10px 90px;
+  margin-top: 20px;
+}
+
+/************************************END SECTION  Freelancers avaliable ************************************/
+
+
+/************************************   SectionDetalhes ****************************************************/
+.SectionDetalhes {
+  padding: 80px;
+}
+
+.GrupIcon_SectionDetalhes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Resenha_SectionDetalhes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.SectionDetalhes_descriptions {
+  margin-top: 10px;
+  text-align: center;
+  padding: 0 80px 0 80px;
+}
+
+.SectionDetalhes_number {
+  color: #00d689;
+  font-size: 20pt;
+}
+
+.SectionDetalhes_title {
+  color: rgb(109, 108, 108);
+}
+
+.SectionDetalhes_borderight {
+  border-right: solid 1px rgb(211, 211, 211);
+}
+
+/**** just for adapt somethig *****/
+.toksPeDreita {
+  position: relative;
+  left: 12px;
+}
+
+/*********************************/
+
+/************************************ END SectionDetalhes **************************************************/
+
+

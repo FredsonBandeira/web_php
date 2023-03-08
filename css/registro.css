@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  .cadastro{
+    display: grid;
+    height: 100vh;
+    place-items:center;
+    
+  }
+  .main_div{
+    width: 500px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  .main_div .title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .main_div .subti{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    color: #c4c6c7;
+    padding-top: 15px;
+  }
+  .main_div .subti a{
+    color: #00f5c4;
+  }
+  .main_div .social_icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  main h1{
+    padding: 45px 0px 3px 196px;
+
+  }
+   a {
+    text-decoration: none;
+   }
+  .social_icons a{
+    display: block;
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    /* text-decoration: none; */
+    transition: all 0.3s linear;
+  }
+  .social_icons a span{
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  .social_icons a:first-child{
+    margin-right: 5px;
+    background:  #16a085;
+  }
+  
+  .social_icons a:last-child{
+    margin-left: 5px;
+    background: #c4c6c7;
+    color: black;
+  }
+  .social_icons a:last-child:hover{
+    background:#16a085;
+  }
+  form {
+    margin-top: 25px;
+  }
+  form .input_box{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+  }
+  .input_box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 45px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+
+  }
+  /* .input_box input:focus{
+    border-color: #be2edd;
+  } */
+  .input_box .icon{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: grey;
+  }
+  form .option_div{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .option_div .check_box{
+    display: flex;
+    /* align-items: center; */
+  }
+  .option_div span{
+    margin-left: 5px;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .option_div .forget_div a{
+    font-size: 16px;
+    color: #be2edd;
+  }
+  .button input{
+    padding-left: 0;
+    background: #00f5c4;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+  
+  form a:hover{
+    text-decoration: underline;
+  }
+  /* mudança de cor ao clicar nos botoes */
+  .clicked {
+    background: #16a085;
+  }
+  

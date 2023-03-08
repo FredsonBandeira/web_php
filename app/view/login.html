@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="http://localhost/web/css/login2.css">
+    <link rel="stylesheet" href="http://localhost/web/css/navbar.css">
+    <link rel="stylesheet" href="http://localhost/web/css/footer.css">
+    <link rel="stylesheet" href="http://localhost/web/fontawesome/css/all.min.css"> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/> 
+  </head>
+  <body>
+
+    <header>
+        <nav>
+          <div class="nav-inicio "></div>
+            <div class="navbar bord">
+                  <div class="dropdown1">
+                        <button class="dropbtn1">Inicio
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">
+                        <a href="index.html">home</a>
+                        </div>
+                  </div> 
+                  <div class="dropdown2 ">
+                    <button class="dropbtn2">Encontrar Trabalho 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content2">
+                      <a href="#">Publicar um serviço</a>
+                      <a href="#">Procura projetos </a>
+                      <a href="#">Procura empregos</a>
+                    </div>
+                  </div> 
+                <div class="dropdown ">
+                  <button class="dropbtn">Empregadores
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div> 
+              </div>
+              <div class="sublogin ">
+                <i class="fa-solid fa-right-to-bracket"></i>
+            <a id="Entrar" href="login2.html">Entrar</a>
+            <a href="http://localhost/web/app/view/registro.html" id="registrar">Registro</a>
+              </div>
+        </nav>
+    </header>
+    <div class="container">
+      <div class="wrapper">
+        <div class="title">
+            <span>Bem Vindo de volta!</span><br>
+                
+        </div>
+        <div class="subtitle">
+            <h6>Não tem conta!!  <a href="http://localhost/web/app/view/registro.html">Registra-se agora</a></h6>
+        </div>
+        <form method="POST" action="http://localhost/web/login/check">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Nome de usuario" name="username">
+          </div>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Senha" name="pwd" >
+          </div>
+          <div class="pass"><a href="#">Esqueceu a senha</a></div>
+          <div class="row button">
+            <input type="submit" value="Entrar">
+          </div>
+          <br>
+          {% if error != '' %}
+          <div class="pass">  <span >erro ao logar!!<br> Tente Novamente!!! </span></div>
+          {% endif %}
+        </form>
+      </div>
+    </div>
+    <div class="ir_top">
+      <button class="btnTop" onclick="scrollToTop()" ><i class="fa-solid fa-caret-up"></i></button>
+
+  </div>
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Minha Conta</h4>
+                    <ul>
+                        <li><a href="#"> Conecte-se</a></li>
+                        <li><a href=""> Registro </a></li>
+                        <li><a href=""> Publique um trabalho </a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+            
+               
+            </div>
+            
+        </div>
+        <div class="direitos">
+            <div class="reservado">
+                <h4>2022 Todos os direitos Reservados</h4>
+            </div>
+            <div class="redes-sociais">
+                <a href="#"> <i class="fa-brands fa-facebook-f"></i> </a>
+                <a href="#"> <i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                <a href="#"> <i class="fa-brands fa-linkedin-in"></i></i> </a>
+                <a href="#"> <i class="fa-brands fa-pinterest-p"></i></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
+ 

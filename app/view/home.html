@@ -1,0 +1,31 @@
+
+    {% for postagem in ultprojectos %}
+<div class="cardT1_ultimosprojetos_div CardsUltimoProjeto">
+    <div class="cardT1Left">
+        <p class="card_ultimosprojetos_title">{{postagem.nome}}</p>
+        <p class="card_ultimosprojetos_typeUrgent">{{postagem.dest_tecno}}</p>
+        <div class="card_ultimosprojetos_detalhes">
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <p class="card_ultimosprojetos_quantlances">3 lances</p>
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <p class="card_ultimosprojetos_lancemedios">Lance médio de US$ 65</p>
+            <i class="fa fa-car" style="font-size:16px;"></i>
+            <p class="card_ultimosprojetos_meses">3 meses atrás</p>
+        </div>
+
+        <div class="card_ultimosprojetos_atributos_div">
+            <p class="card_ultimosprojetos_atributos">Contabilidade</p>
+            <p class="card_ultimosprojetos_atributos">Consultado</p>
+            <p class="card_ultimosprojetos_atributos">excel</p>
+            <p class="card_ultimosprojetos_atributos">Jurídico</p>
+            <p class="card_ultimosprojetos_atributos">Redação Jurídica</p>
+        </div>
+    </div>
+    <div class="cardT1right">
+        <p class="card_ultimosprojetos_price">{{postagem.preco}}</p>
+        <p class="card_ultimosprojetos_priceDescription">Preço por hora</p>
+        <button class="card_ultimosprojetos_buttonSubmit">lance agora</button>
+    </div>
+</div>
+
+{% endfor %}
